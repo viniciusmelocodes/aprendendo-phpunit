@@ -2,7 +2,7 @@
 
 namespace App\Aritmetico;
 
-class Soma
+class Divisao
 {
     private $num1;
     private $num2;
@@ -27,8 +27,8 @@ class Soma
         $this->num2 = $value;
     }
 
-    public function somar(): int
+    public function dividir(): float
     {
-        return $this->getNum1() + $this->getNum2();
+        return $this->getNum1() / $this->getNum2();
     }
 }
